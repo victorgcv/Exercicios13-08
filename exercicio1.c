@@ -7,15 +7,15 @@ int main ()
 número digitado.*/
     
     setlocale( LC_ALL, "Portuguese") ;
-    float numero ;
-    float metade ;
+    int numero ;
+    int metade ;
     printf("Digite um número para saber sua metade:") ;
     
     //diz que o numero real deve ser armazenado no numero, ou seja, o "float numero" deve ser um numero real/float/double
-    scanf("%f", &numero) ;
+    scanf("%d", &numero) ;
     
     metade = (numero /2) ;
     
-    printf( "\n A metade do seu número é: %f\n", metade ) ;
+    printf( "\n A metade do seu número é: %d\n", metade ) ;
   
 }
