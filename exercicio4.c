@@ -24,6 +24,6 @@ altura de um triângulo qualquer e exiba a área deste triângulo.*/
     scanf("%f", &base);
 
     area = (altura * base) / 2 ;
-    printf("\nA Área do seu Triângulo é: %2.d", area);
+    printf("\nA Área do seu Triângulo é: %.2d", area);
 
 }
