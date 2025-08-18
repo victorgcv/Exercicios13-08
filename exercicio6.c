@@ -30,5 +30,5 @@ aumento.    */
     novosalario = salario + aumento;
 
 
-    printf("\nSeu salário atual no valor de R$ %.2f passará a ser R$ %.2f com o aumento de %.2f%%.", salario, novosalario, porcentagem);
+    printf("\nSeu salário atual no valor de R$ %.2f passará a ser R$ %.2f com o aumento de %.2f.", salario, novosalario, aumento);
 }
